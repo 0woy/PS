@@ -17,40 +17,24 @@ N2579번 계단 오르기
 public class N_2579 {
     public static void main(String [] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int total = 0; // 총 점수
         int count = Integer.parseInt(br.readLine());
-        boolean check = false;  // 연속된 3계단 감지
-        int [] stairs = new int[count]; // 각 계단의 점수 저장 배열
 
-        for(int i=0;i<count;i++)
+        int [] stairs = new int[count+1]; // 각 계단의 점수 저장 배열
+        int [] scores = new int[count+1];
+
+        for(int i=1;i<=count;i++)
             stairs[i] = Integer.parseInt(br.readLine());
 
-        total += stairs[count-1]; // 마지막 계단 필수
-        int i;
-        // 계단 오르기 시작
-        for(i = count-1;i>=2;){
-            if(!check && stairs[i-1] > stairs[i-2]){
-                total+=stairs[i-1];
-                i=i-1;
-                check = true;
-            }
-            else{
-                total+=stairs[i-2];
-                i=i-2;
-                check=false;
-            }
+        scores[1] = stairs[1];
+        for(int i=2;i<=count;i++){
+            if(i==2)
+                scores[2] = stairs[1]+stairs[2];
+            else if(i==3)
+                scores[3] = Math.max(stairs[1],stairs[2])+stairs[3];
+            else
+                scores[i] =  Math.max(scores[i-3]+stairs[i-1],scores[i-2]) + stairs[i];
         }
-        if(!check) {
-            switch (i) {
-                case 1:
-                    total += stairs[0];
-                    break;
-                case 2:
-                    total += stairs[0]<stairs[1]?stairs[1]:stairs[0];
-                    break;
-            }
-        }
-        System.out.println(total);
+        System.out.println(scores[count]);
     }
 }
 
