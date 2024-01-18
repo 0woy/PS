@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a0ea1bf-e19e-40df-a50f-2706730dcb6b" name="Changes" comment="계단 오르기 dp (성공)">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="2a0ea1bf-e19e-40df-a50f-2706730dcb6b" name="Changes" comment="돌 게임 3">
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/DP/N_1003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/N_2023.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,18 +33,95 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Spring/messaging-stomp-websocket&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Application.N_1003">
+    <configuration name="N_1003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.DP.N_1003" />
+      <module name="SWM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.DP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="N_11724" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.N_11724" />
+      <module name="SWM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="N_2748" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.DP.N_2748" />
+      <module name="SWM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.DP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="N_9655" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.DP.N_9655" />
+      <module name="SWM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.DP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="N_9657" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.DP.N_9657" />
+      <module name="SWM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.DP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.N_1003" />
+        <item itemvalue="Application.N_9657" />
+        <item itemvalue="Application.N_9655" />
+        <item itemvalue="Application.N_2748" />
+        <item itemvalue="Application.N_11724" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,6 +131,12 @@
       <option name="presentableId" value="Default" />
       <updated>1704432512587</updated>
       <workItem from="1704432513992" duration="5994000" />
+      <workItem from="1704544095374" duration="1898000" />
+      <workItem from="1705223351551" duration="292000" />
+      <workItem from="1705225369678" duration="1076000" />
+      <workItem from="1705301589374" duration="243000" />
+      <workItem from="1705472105312" duration="6189000" />
+      <workItem from="1705558336567" duration="1040000" />
     </task>
     <task id="LOCAL-00001" summary="계단 오르기 Top-Down (실패)">
       <created>1704435574054</created>
@@ -68,7 +152,35 @@
       <option name="project" value="LOCAL" />
       <updated>1704437772560</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="연결 요소의 개수 구하기 DFS">
+      <created>1705226177176</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705226177176</updated>
+    </task>
+    <task id="LOCAL-00004" summary="피보나치 수 2 long 배열">
+      <created>1705472882423</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705472882423</updated>
+    </task>
+    <task id="LOCAL-00005" summary="돌 게임">
+      <created>1705473938036</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705473938036</updated>
+    </task>
+    <task id="LOCAL-00006" summary="돌 게임 3">
+      <created>1705477239130</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705477239130</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,7 +189,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="계단 오르기 Top-Down (실패)" />
     <MESSAGE value="계단 오르기 dp (성공)" />
-    <option name="LAST_COMMIT_MESSAGE" value="계단 오르기 dp (성공)" />
+    <MESSAGE value="연결 요소의 개수 구하기 DFS" />
+    <MESSAGE value="피보나치 수 2 long 배열" />
+    <MESSAGE value="돌 게임" />
+    <MESSAGE value="돌 게임 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="돌 게임 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -86,6 +202,16 @@
           <url>file://$PROJECT_DIR$/src/SWM/N_2579.java</url>
           <line>53</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SWM/N_1924.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SWM/N_10815.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
