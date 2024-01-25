@@ -9,8 +9,8 @@ public class N_1149 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
-        int [][] dp = new int[n][n];
-        int [][] rgb = new int [n][n];
+        int [][] dp = new int[n][3];
+        int [][] rgb = new int [n][3];
 
         for(int i=0;i<n;i++){
             StringTokenizer st = new StringTokenizer(br.readLine());
