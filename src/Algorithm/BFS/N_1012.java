@@ -1,4 +1,4 @@
-package SWM;
+package Algorithm.BFS;
 
 import java.io.*;
 import java.util.*;
