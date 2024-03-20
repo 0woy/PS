@@ -49,7 +49,6 @@ public class N_4179 {
             this.count = count;
         }
     }
-
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
@@ -79,7 +78,6 @@ public class N_4179 {
             int i=0;
             while(i<f_len) {
                 int[] c_fire = fire.poll();
-                map[c_fire[0]][c_fire[1]] = 'F'; // 방문 처리
                 for (int d = 0; d < 4; d++) {
                     int fx = c_fire[0] + dx[d];
                     int fy = c_fire[1] + dy[d];
@@ -102,7 +100,6 @@ public class N_4179 {
                 if(simon.x == 0 || simon.x ==map.length-1 ||
                 simon.y==0 || simon.y == map[0].length-1)
                     return simon.count;
-                map[simon.x][simon.y] = 'J'; // 방문 처리
                 for (int d = 0; d < 4; d++) {
                     int px = simon.x + dx[d];
                     int py = simon.y + dy[d];
