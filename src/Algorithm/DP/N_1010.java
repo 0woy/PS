@@ -27,9 +27,9 @@ public class N_1010 {
              st= new StringTokenizer(br.readLine());
              int n = Integer.parseInt(st.nextToken());
              int m = Integer.parseInt(st.nextToken());
-             long [][] dp = new long[m][m+1];
+             long [][] dp = new long[m+1][m+1];
 
-           sb.append(pascal(m,n)+"\n");
+           sb.append(pascal(m,n,dp)+"\n");
         }
         System.out.println(sb);
     }
